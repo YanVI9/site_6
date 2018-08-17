@@ -1,13 +1,23 @@
 /* fon-block */
 
-.fon-block {
-    
+.fon-block { 
+    background-color: #f74c55;
+    position: relative;  
+}
+
+.coverBlock_width-1024 {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 /* header block */
 
 .header {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__caption {
@@ -20,4 +30,8 @@
 
 .menu__item {
 
+}
+
+.joinColors {
+    align-self: flex-end;
 }
