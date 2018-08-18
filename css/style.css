@@ -272,3 +272,58 @@ body {
     left: calc( -1 * 206px / 2 + 50px);
     z-index: 7;
 }
+
+.circle-8 {
+    position: absolute;
+    background-color: #fb636b;
+    border-radius: 50%;
+    width: 527px;
+    height: 527px;
+    bottom: -25%;
+    right: -25%;
+    z-index: 1;
+}
+
+.circle-9 {
+    position: absolute;
+    background-color: #404040;
+    border-radius: 50%;
+    width: 466px;
+    height: 466px;
+    bottom: -25%;
+    right: -25%;
+    z-index: 2;
+}
+
+.circle-10 {
+    position: absolute;
+    background-color: #2d5f3b;
+    border-radius: 50%;
+    width: 384px;
+    height: 384px;
+    bottom: -25%;
+    right: -25%;
+    z-index: 3;
+}
+
+.circle-11 {
+    position: absolute;
+    background-color: #f74c55;
+    border-radius: 50%;
+    width: 281px;
+    height: 281px;
+    bottom: -25%;
+    right: -25%;
+    z-index: 4;
+}
+
+.circle-12 {
+    position: absolute;
+    background-color: #ee732f;
+    border-radius: 50%;
+    width: 206px;
+    height: 206px;
+    bottom: -25%;
+    right: -25%;
+    z-index: 4;
+}
