@@ -4,8 +4,13 @@
 }
 
 @font-face {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/open-sans-light.ttf');
 }
 
 body {
@@ -20,15 +25,18 @@ body {
     position: relative;  
     min-height: 496px;
     overflow: hidden;
+    display: flex;
+    align-items: stretch;
 }
 
-.coverBlock_width-1024 {
+.coverBlock {
     max-width: 1024px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     position: relative;
     z-index: 8;
+    flex: 1 0 auto;
 }
 
 /* header block */
@@ -37,6 +45,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 0 0 auto;
 }
 
 .header__caption {
@@ -55,7 +64,7 @@ body {
 }
 
 .menu__item {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans Light';
     color: white;
     text-transform: uppercase;
     font-weight: 300; 
@@ -63,10 +72,50 @@ body {
     font-size: 16px;
 }
 
+
+
 .joinColors {
     align-self: flex-end;
     position: relative;
     z-index: 8;
+    flex: 1 0 auto;
+    margin-right: 156px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.joinColors__shift-top {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+.joinColors__caption {
+    font-size: 40px;
+    font-family: 'Open Sans Light';
+    color: white;
+    font-weight: 300; 
+    margin: 0 0 0 0;
+}
+
+.joinColors__text {
+    font-size: 16px;
+    font-family: 'Open Sans Light';
+    color: white;
+    font-weight: 300; 
+    margin-bottom: 26px;
+}
+
+.joinColors__button {
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 24px;
+    background-color: rgba(247, 76, 85, 0.5);
+    border: 2px solid white;
+    line-height: 41px;
+    max-width: 153px;
+    border-radius: 6px;
 }
 
 /*
