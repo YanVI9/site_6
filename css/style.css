@@ -280,17 +280,48 @@ body {
 /* main */
 
 .main {
-    padding: 86px 93px 60px 93px;
+    padding: 86px 9% 60px 9%;
     box-sizing: border-box;
 }
 
 .main__caption {
     font-size: 30px;
     font-weight: 400;
+    margin: 0;
 }
 
 .main__text {
     font-size: 14px;
+    margin-bottom: 60px;
 }
 
 /* colorLine */
+
+.colorLine {
+    display: flex;
+}
+
+.colorLine__item {
+    width: 36px;
+    height: 36px;
+}
+
+.colorLine__item_bkcolor-ee732f {
+    background-color: #ee732f;
+}
+
+.colorLine__item_bkcolor-f74c55 {
+    background-color: #f74c55;
+}
+
+.colorLine__item_bkcolor-2d5f3b {
+    background-color: #2d5f3b;
+}
+
+.colorLine__item_bkcolor-404040 {
+    background-color: #404040;
+}
+
+.colorLine__item_bkcolor-fb636b {
+    background-color: #fb636b;
+}
