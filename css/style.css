@@ -195,14 +195,22 @@ body {
     z-index: 7;
 }
 
+.circleBox {
+    position: absolute;
+    right: calc(-1 * 527px * 0.45);
+    bottom: calc(-1 * 527px * 0.50);
+    width: 527px;
+    height: 527px;
+}
+
+
+
 .circle-8 {
     position: absolute;
     background-color: #fb636b;
     border-radius: 50%;
     width: 527px;
     height: 527px;
-    bottom: -25%;
-    right: -25%;
     z-index: 1;
 }
 
@@ -212,8 +220,8 @@ body {
     border-radius: 50%;
     width: 466px;
     height: 466px;
-    bottom: -25%;
-    right: -25%;
+    top: 20px;
+    right: 10px;
     z-index: 2;
 }
 
@@ -223,8 +231,8 @@ body {
     border-radius: 50%;
     width: 384px;
     height: 384px;
-    bottom: -25%;
-    right: -25%;
+    top: 37px;
+    right: 31px;
     z-index: 3;
 }
 
@@ -234,8 +242,8 @@ body {
     border-radius: 50%;
     width: 281px;
     height: 281px;
-    bottom: -25%;
-    right: -25%;
+    top: 62px;
+    right: 56px;
     z-index: 4;
 }
 
@@ -245,7 +253,7 @@ body {
     border-radius: 50%;
     width: 206px;
     height: 206px;
-    bottom: -25%;
-    right: -25%;
+    top: 84px;
+    right: 82px;
     z-index: 4;
 }
