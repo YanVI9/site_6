@@ -325,3 +325,41 @@ body {
 .colorLine__item_bkcolor-fb636b {
     background-color: #fb636b;
 }
+
+/* threeBlock */
+
+.background_color-grad {   
+    background: linear-gradient(to right, #404040 50%,#2d5f3b 50%);
+}
+.threeBlock {
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.threeBlock__item {
+    width: calc(100% / 3);
+    padding: 31px 50px;
+}
+
+.threeBlock__caption {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    color: white;
+    margin: 0;
+    line-height: 36px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.threeBlock__icon {
+    margin-right: 10px;
+}
+
+.threeBlock__text {
+    font-size: 14px;
+    color: white;
+}
