@@ -70,9 +70,8 @@ body {
     font-weight: 300; 
     margin-left: 30px;
     font-size: 16px;
+    text-decoration: none;
 }
-
-
 
 .joinColors {
     align-self: flex-end;
@@ -202,8 +201,6 @@ body {
     width: 527px;
     height: 527px;
 }
-
-
 
 .circle-8 {
     position: absolute;
